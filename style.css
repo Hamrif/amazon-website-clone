@@ -1,0 +1,336 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;
+
+}
+/* this styling is for the navbar */
+
+/* this is for the styling of the navbar */
+.navbar{
+    height:60px;
+    display:flex;
+    background-color:hsl(180, 6%, 6%);
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    /* this is the div for the home button the outer div */
+}
+.outer-logo{
+    height: 45px;
+    width: 120px;
+    background-color:black;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* this is for the styling of the div where the picture is inserted  */
+.navHome{
+    
+    height: 30px;
+    width: 100px;
+    background-image:url(reallogo.png);
+    background-color:black;
+    background-size:cover;
+    
+}
+
+/* this is for putting the borders around the icons  */
+.border{
+    border:1.5px solid black;
+     border-radius:3px;
+}
+/* for making the border appear when the pointer is hovered on top of the icon */
+.border:hover{
+    border:1.5px solid white;
+     border-radius:3px;
+}
+
+.navLocation{
+    
+    height: 45px;
+}
+.addressone{
+    margin-top:5px;
+    font-size:0.7rem;
+    color:#cccccc;
+    margin-left:15px;
+
+
+   
+}
+.addresstwo{
+    display:flex;
+    font-size:0.7rem;
+    font-weight: 750;
+    
+}
+#countryName{
+    margin-top:3px;
+    margin-left: 3px;
+}
+.nav-location{
+    
+    font-size: 1rem;
+    margin-top:-7px; 
+}
+.navlocation{
+    border-radius:3px;
+}
+.nav-search{
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    display:flex;
+    background-color: #febd68;
+    height:40px;
+    width:500px;
+    border:1.5px solid black;
+
+}
+.search-input{
+    width:100%;
+    border:none;
+}
+.search-select{
+    background-color:#f3f3f3;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    width: 50px;
+    height: 40px;
+    border:none;
+    text-align:center;
+}
+.search-logo{
+    width: 50px;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1rem;
+
+}
+#nav-signIn{
+    font-size:0.85rem;
+    height:50px;
+   
+    
+} 
+#nav-signIn{
+   margin-top: 5px; 
+}
+#nav-account{
+    font-size:0.9rem;
+    font-weight: 700;
+    margin-top:-30px;
+    
+}
+.navReturns{
+    height:45px;
+    display: flex;
+    align-items:center;
+}
+.nav-return{
+    font-size: 0.85rem;
+
+}
+#nav-order{
+     font-size:0.9rem;
+    font-weight: 700;
+}
+
+.cart-icon{
+    font-size:1.5rem;
+}
+#cart{
+    padding-top:5px;
+    padding-left:2px;
+    font-size:0.9rem;
+    font-weight: 700;
+}
+.nav-cart{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 45px;
+}
+.nav-search:hover{
+    
+    border:1.5px solid orange;
+    
+    border:border-box;
+ 
+}
+input{
+    font-size:1rem;
+    outline:none;
+    border:none;
+}
+/* from now onwards the styling is going to be for the menubar */
+
+.menu{
+    display:flex;
+    background-color:#232F3E;
+    color:white;
+    height: 40px;
+    align-items:center;
+    justify-content:left;
+    
+}
+.menu-first{
+    display:flex;
+    margin-left:20px;
+}
+.menu-bars{
+    margin-left:10px;
+}
+#menu-all{
+    
+   
+   padding-left:8px;
+   margin-right:20px;
+}
+.shift-right{
+    margin-right:20px;
+}
+.menu-border{
+    display:flex;
+    height:30px;
+    border:1.5px solid transparent;
+    align-items:center;
+    justify-content: center;
+    border-radius:3px;
+}
+.menu-border:hover{
+    display:flex;
+    height:30px;
+    border:1.5px solid white;
+    align-items:center;
+}
+.space-bothside{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+/* this is specifically for the hero of the page  */
+.hero{
+    background-image:url(hero.jpg);
+    background-size:cover;
+    height:400px;
+
+    display:flex;
+    justify-content:center;
+    align-items:end;
+}
+.disclaimer{
+    font-size:0.9rem;
+    font-weight:500;
+    background-color:white;
+    display: flex;
+    width:95%;
+    height: 30px;
+    margin-bottom:30px;
+    justify-content: center;
+    align-items:center;
+    color:rgba(0, 0, 0, 0.7);
+
+}
+
+#amabd{
+    color:#007185;
+}
+.add{
+    width: 280px;
+    height:380px;
+    border:2px solid black;
+}
+.advertisement{
+    display:flex;
+    justify-content:space-between;
+    width:95%;
+   margin-top: 20px;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.gameImage{
+    background-image:url(computer.jpg);
+    
+   
+}
+.image{
+width:260px;
+    height: 300px;
+    margin-left:10px;
+    margin-top:10px;
+    background-size:cover;
+}
+h2{
+    font-size:1.3rem;
+    margin-left:10px;
+    margin-top:10px;
+}
+.addlink{
+    margin-left:10px;
+    margin-top:10px;
+    font-size:0.9rem;
+    font-weight: 600;
+}
+.homeImage{
+     background-image:url(HomeDecor.jpg);
+}
+.coffeeImage{
+     background-image:url(coffee.jpg);
+}
+.dressImage{
+      background-image:url(dress.jpg);
+}
+#backToptxt{
+ text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+.backTop{
+    height:30px;
+    margin-top:50px;
+    background-color:#38445c;
+    text-align:center;
+    padding-top:15px;
+   
+}
+.backTop:hover{
+    background-color:#434a63;
+}
+.endbar{
+    background-color:#232F3E;
+    height:300px;
+    display:flex;
+    justify-content:center;
+}
+
+
+.footerbox{
+    margin-top:50px;
+    margin-left:80px;
+    line-height: 30px;
+   
+    
+    
+}
+.footerli{
+    color:#cccccc;
+    list-style: none;
+    
+}
+.footerli:hover{
+    text-decoration:underline ;
+}   
