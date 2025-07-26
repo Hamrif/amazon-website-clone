@@ -33,7 +33,7 @@
     
     height: 30px;
     width: 100px;
-    background-image:url(reallogo.png);
+    background-image:url(images/reallogo.png);
     background-color:black;
     background-size:cover;
     
@@ -219,7 +219,7 @@ input{
 
 /* this is specifically for the hero of the page  */
 .hero{
-    background-image:url(hero.jpg);
+    background-image:url(images/hero.jpg);
     background-size:cover;
     height:400px;
 
@@ -263,7 +263,7 @@ input{
     
 }
 .gameImage{
-    background-image:url(computer.jpg);
+    background-image:url(images/computer.jpg);
     
    
 }
@@ -286,13 +286,13 @@ h2{
     font-weight: 600;
 }
 .homeImage{
-     background-image:url(HomeDecor.jpg);
+     background-image:url(images/HomeDecor.jpg);
 }
 .coffeeImage{
-     background-image:url(coffee.jpg);
+     background-image:url(images/coffee.jpg);
 }
 .dressImage{
-      background-image:url(dress.jpg);
+      background-image:url(images/dress.jpg);
 }
 #backToptxt{
  text-decoration:none;
